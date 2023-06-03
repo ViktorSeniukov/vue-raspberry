@@ -1,0 +1,16 @@
+.err {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.err__title {
+    font-size: 3em;
+    color: #fa2c2c;
+}
+
+.err__text {
+    font-size: 1.5em;
+}

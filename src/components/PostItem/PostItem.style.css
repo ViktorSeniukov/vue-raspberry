@@ -1,0 +1,26 @@
+.post-item {
+    display: flex;
+    flex-wrap: wrap;
+    /*align-self: flex-start;*/
+    background-color: #eaeaea;
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+}
+
+.post-item__title {
+    margin: 0;
+    flex-basis: min-content;
+    min-width: 80%;
+}
+
+.post-item__text {
+}
+
+.post-item__img {
+    order: -1;
+    flex-basis: 0;
+    width: 3rem;
+    max-height: 3rem;
+    border-radius: 50%;
+    padding-right: 0.7rem;
+}
