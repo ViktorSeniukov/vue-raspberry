@@ -12,6 +12,6 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: 'dost'
+    outDir: 'dist'
   }
 })
